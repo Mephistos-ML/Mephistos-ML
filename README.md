@@ -45,7 +45,7 @@ I am particularly interested in building software that sits between scientific m
 
 ## Tech
 
-`Python` `TypeScript` `React` `NumPy` `SciPy` `pytest` `SQLite` `CLI tooling` `YAML configs` `data pipelines` `scientific computing` `monitoring systems` `research software`
+`Python` `NumPy` `SciPy` `pytest` `SQLite` `data pipelines` `scientific computing` `research software` `monitoring systems` `TypeScript` `React`
 
 ## Links
 
