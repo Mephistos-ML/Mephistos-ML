@@ -18,6 +18,13 @@ Open-source Python toolkit for prediction, fitting, and analysis of paramagnetic
 - Numerical fitting and analysis
 - Documentation and packaged releases
 
+### [SciScope](https://github.com/Mephistos-ML/SciScope)
+Scientific signal monitoring platform for narrow research fields, designed to detect fresh developments across sources and surface relevant updates for specialised communities.
+
+- Topic-driven discovery and monitoring workflows
+- GitHub-based signal detection for scientific software and releases
+- Full-stack architecture with Python backend and React/TypeScript frontend
+
 ### [pnmr-chi-gen](https://github.com/Mephistos-ML/pnmr-chi-gen)
 Physics-aware generator of magnetic susceptibility tensor series for paramagnetic NMR simulation workflows and machine-learning datasets.
 
@@ -38,7 +45,7 @@ I am particularly interested in building software that sits between scientific m
 
 ## Tech
 
-`Python` `NumPy` `SciPy` `pytest` `CLI tooling` `YAML configs` `data pipelines` `scientific computing`
+`Python` `TypeScript` `React` `NumPy` `SciPy` `pytest` `SQLite` `CLI tooling` `YAML configs` `data pipelines` `scientific computing` `monitoring systems` `research software`
 
 ## Links
 
