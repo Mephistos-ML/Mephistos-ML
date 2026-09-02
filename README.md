@@ -52,5 +52,6 @@ I am particularly interested in software at the intersection of scientific model
 ## Links
 
 - GitHub: [Mephistos-ML](https://github.com/Mephistos-ML)
+- SciScope: [sciscope.uk](https://sciscope.uk/)
 - ParaNMR docs: [mephistos-ml.github.io/paranmr](https://mephistos-ml.github.io/paranmr/)
 - ParaNMR package: [PyPI / paranmr](https://pypi.org/project/paranmr/)
