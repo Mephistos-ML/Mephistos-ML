@@ -1,6 +1,6 @@
 # Ernest Borysenko
 
-Computational chemistry PhD at the University of Bath, building scientific Python tools for paramagnetic NMR, spectral fitting, and ML-assisted analysis.
+Computational chemistry PhD at the University of Bath, building research software for paramagnetic NMR and scientific-software discovery.
 
 ## What I work on
 
@@ -8,6 +8,7 @@ Computational chemistry PhD at the University of Bath, building scientific Pytho
 - Paramagnetic NMR analysis and susceptibility tensor fitting
 - Reproducible research software, CLI tools, and data pipelines
 - Physics-aware dataset generation for ML workflows
+- Scientific software discovery, retrieval, and relevance ranking
 
 ## Selected Projects
 
@@ -19,11 +20,12 @@ Open-source Python toolkit for prediction, fitting, and analysis of paramagnetic
 - Documentation and packaged releases
 
 ### [SciScope](https://github.com/Mephistos-ML/SciScope)
-Scientific signal monitoring platform for narrow research fields, designed to detect fresh developments across sources and surface relevant updates for specialised communities.
+Web service for discovering and monitoring domain-specific scientific software across public repository hosts.
 
-- Topic-driven discovery and monitoring workflows
-- GitHub-based signal detection for scientific software and releases
-- Full-stack architecture with Python backend and React/TypeScript frontend
+- AI-assisted query planning and multi-source repository and code retrieval
+- Admission gates and transparent heuristic ranking for specialised scientific software
+- Async search, provider-level failure isolation, structured observability, and personalised update feeds
+- FastAPI/PostgreSQL backend with a React/TypeScript frontend
 
 ### [pnmr-chi-gen](https://github.com/Mephistos-ML/pnmr-chi-gen)
 Physics-aware generator of magnetic susceptibility tensor series for paramagnetic NMR simulation workflows and machine-learning datasets.
@@ -41,11 +43,11 @@ Configurable product monitoring pipeline with source adapters, deduplication, an
 
 ## Focus
 
-I am particularly interested in building software that sits between scientific modelling and practical engineering: typed configs, reproducible pipelines, testable numerical code, and tools that are useful both for research and for production-style workflows.
+I am particularly interested in software at the intersection of scientific modelling and practical engineering: typed configurations, reproducible pipelines, testable numerical code, retrieval and ranking systems, and products that make specialised research software easier to discover and use.
 
 ## Tech
 
-`Python` `NumPy` `SciPy` `pytest` `SQLite` `data pipelines` `scientific computing` `research software` `monitoring systems` `TypeScript` `React`
+`Python` `FastAPI` `PostgreSQL` `NumPy` `SciPy` `pytest` `scientific computing` `research software` `retrieval systems` `ranking` `observability` `TypeScript` `React`
 
 ## Links
 
