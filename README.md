@@ -12,13 +12,6 @@ Computational chemistry PhD at the University of Bath, building research softwar
 
 ## Selected Projects
 
-### [ParaNMR](https://github.com/Mephistos-ML/paranmr)
-Open-source Python toolkit for prediction, fitting, and analysis of paramagnetic NMR spectra based on experimental data and *ab initio* calculations.
-
-- Tensor-based pNMR workflows
-- Numerical fitting and analysis
-- Documentation and packaged releases
-
 ### [SciScope](https://github.com/Mephistos-ML/SciScope)
 Web service for discovering and monitoring domain-specific scientific software across public repository hosts.
 
@@ -27,14 +20,22 @@ Web service for discovering and monitoring domain-specific scientific software a
 - Async search, provider-level failure isolation, structured observability, and personalised update feeds
 - FastAPI/PostgreSQL backend with a React/TypeScript frontend
 
-### [pnmr-chi-gen](https://github.com/Mephistos-ML/pnmr-chi-gen)
-Physics-aware generator of magnetic susceptibility tensor series for paramagnetic NMR simulation workflows and machine-learning datasets.
+### [ParaNMR](https://github.com/Mephistos-ML/paranmr)
+Open-source Python toolkit for prediction, fitting, and analysis of paramagnetic NMR spectra based on experimental data and *ab initio* calculations.
 
-- Deterministic YAML-driven generation
-- Reproducible synthetic data pipelines
+- Tensor-based pNMR workflows
+- Numerical fitting and analysis
+- Documentation and packaged releases
+
+### [ParaNMR-Synth](https://github.com/Mephistos-ML/ParaNMR-Synth)
+Reproducible synthetic pNMR dataset generator for ParaNMR fitting validation and supervised machine-learning workflows.
+
+- Deterministic geometry-based generation of susceptibility, linewidth, and diamagnetic-shift latents
+- ParaNMR-replayable fitting artifacts plus paired moments-to-parameters ML datasets
+- Provenance-complete synthetic data pipelines
 - Designed as an upstream tool for simulation and ML experiments
 
-### [signalwatch](https://github.com/Mephistos-ML/signalwatch)
+### [Signalwatch](https://github.com/Mephistos-ML/signalwatch)
 Configurable product monitoring pipeline with source adapters, deduplication, and notification support.
 
 - Layered Python application design
