@@ -21,11 +21,11 @@ Web service for discovering and monitoring domain-specific scientific software a
 - FastAPI/PostgreSQL backend with a React/TypeScript frontend
 
 ### [ParaNMR](https://github.com/Mephistos-ML/paranmr)
-Open-source Python toolkit for prediction, fitting, and analysis of paramagnetic NMR spectra based on experimental data and *ab initio* calculations.
+Research-grade Python platform for prediction, inverse fitting, and analysis of paramagnetic NMR spectra from experimental and *ab initio* inputs.
 
-- Tensor-based pNMR workflows
-- Numerical fitting and analysis
-- Documentation and packaged releases
+- Physics-based PCS, hyperfine, relaxation, and susceptibility-tensor workflows
+- Fixed, Hungarian-assignment, and GMM moment-matching inverse fits with weighted objectives and analytic Jacobians
+- Variable-temperature modelling, uncertainty diagnostics, objective maps, visualisation, CLI workflows, documentation, and packaged releases
 
 ### [ParaNMR-Synth](https://github.com/Mephistos-ML/ParaNMR-Synth)
 Reproducible synthetic pNMR dataset generator for ParaNMR fitting validation and supervised machine-learning workflows.
