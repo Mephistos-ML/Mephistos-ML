@@ -1,6 +1,6 @@
 # Ernest Borysenko
 
-Computational chemistry PhD researcher at the University of Bath, building scientific software for paramagnetic NMR, inverse modelling, and research-software discovery.
+Computer scientist and PhD researcher at the University of Bath, building scientific software for research-software discovery, inverse modelling, and paramagnetic NMR.
 
 ## What I work on
 
