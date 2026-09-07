@@ -35,13 +35,6 @@ Reproducible synthetic pNMR dataset generator for ParaNMR fitting validation and
 - Provenance-complete synthetic data pipelines
 - Designed as an upstream tool for simulation and ML experiments
 
-### [Signalwatch](https://github.com/Mephistos-ML/signalwatch)
-Configurable product monitoring pipeline with source adapters, deduplication, and notification support.
-
-- Layered Python application design
-- CLI-based monitoring workflow
-- SQLite-backed state and notification routing
-
 ## Focus
 
 I am particularly interested in software at the intersection of scientific modelling and practical engineering: typed configurations, reproducible pipelines, testable numerical code, retrieval and ranking systems, and products that make specialised research software easier to discover and use.
