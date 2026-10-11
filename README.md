@@ -1,54 +1,71 @@
 # Ernest Borysenko
 
-PhD researcher at the University of Bath, building scientific software for research-software discovery, inverse modelling, and paramagnetic NMR.
+PhD researcher at the University of Bath building algorithms and dependable software for scientific work.
+
+I enjoy owning the full path from a mathematical idea to a usable product: formulation, implementation, evaluation, testing, deployment, and maintenance.
 
 ## What I work on
 
-- Scientific Python tooling for computational chemistry workflows
-- Paramagnetic NMR analysis and susceptibility tensor fitting
-- Reproducible research software, CLI tools, and data pipelines
-- Physics-aware dataset generation for ML workflows
-- Scientific software discovery, retrieval, and relevance ranking
+- Numerical inference, inverse problems, and uncertainty estimation
+- Scientific Python packages with tested numerical kernels and reproducible workflows
+- Research-software discovery, information retrieval, and relevance ranking
+- Reliable web services, background processing, and external API integrations
+- Computational quantum chemistry and experimental model validation
 
 ## Selected Projects
 
 ### [SciScope](https://github.com/Mephistos-ML/SciScope)
 
-Web service for discovering and monitoring domain-specific scientific software across public repository hosts.
+A deployed service for discovering and monitoring scientific software across public repositories. I designed and built it end to end.
 
-- AI-assisted query planning and multi-source repository and code retrieval
-- Admission gates and transparent heuristic ranking for specialised scientific software
-- Async search, provider-level failure isolation, structured observability, and personalised update feeds
-- FastAPI/PostgreSQL backend with a React/TypeScript frontend
+- FastAPI and React/TypeScript application with PostgreSQL persistence and database migrations
+- LLM-assisted query planning, multi-source retrieval, and explainable evidence-based ranking
+- Recoverable background jobs with concurrent worker claims, renewable leases, and atomic publication
+- Provider timeouts, retries, rate-limit handling, and preservation of partial results
+- PostgreSQL concurrency tests, browser tests against running services, and CI
+- Repository subscriptions and personalised activity feeds
 
-### [SimpNMR-X](https://github.com/Mephistos-ML/simpnmr-x)
+Try it at [sciscope.uk](https://sciscope.uk/).
 
-Independently maintained research and engineering fork of SimpNMR for prediction, inverse fitting, and analysis of paramagnetic NMR spectra from experimental and *ab initio* inputs. It focuses on stable pipelines, reproducible validation, and maintainable scientific-software architecture; mature changes can later inform upstream SimpNMR development.
+### [SimpNMR](https://github.com/Mephistos-ML/simpnmr-x)
 
-- Physics-based PCS, hyperfine, relaxation, and susceptibility-tensor workflows
-- Fixed, Hungarian-assignment, and GMM moment-matching inverse fits with weighted objectives and analytic Jacobians
-- Variable-temperature modelling, uncertainty diagnostics, objective maps, visualisation, CLI workflows, documentation, and packaged releases
+Open-source scientific Python software connecting computational models with experimental NMR data. My current research and engineering development takes place on the `simpnmr-x` working branch.
 
-### [SimpNMR-X-Synth](https://github.com/Mephistos-ML/simpnmr-x-synth)
+- Moment-based inference for parameter estimation without explicit signal assignment
+- Analytical Jacobians, constrained optimization, and uncertainty diagnostics
+- Numerical kernels separated from CLI interfaces, configuration, and workflow orchestration
+- Scientific correctness tests, deterministic recovery cases, and reproducible benchmarks
+- Versioned releases, documentation, and Python-version compatibility checks in CI
 
-Reproducible synthetic pNMR dataset generator for SimpNMR-X fitting validation and supervised machine-learning workflows.
+### [SimpNMR-X Synth](https://github.com/Mephistos-ML/simpnmr-x-synth)
 
-- Deterministic geometry-based generation of susceptibility, linewidth, and diamagnetic-shift latents
-- SimpNMR-X-replayable fitting artefacts plus paired moments-to-parameters ML datasets
-- Provenance-complete synthetic data pipelines
-- Designed as an upstream tool for simulation and ML experiments
+A companion generator for controlled SimpNMR validation and machine-learning experiments.
 
-## Focus
+- Deterministic datasets with retained physical ground truth
+- Replayable parameter-recovery cases and paired moments-to-parameters datasets
+- Provenance manifests and explicit generation settings
 
-I am particularly interested in software at the intersection of scientific modelling and practical engineering: typed configurations, reproducible pipelines, testable numerical code, retrieval and ranking systems, and products that make specialised research software easier to discover and use.
+## Research
+
+My PhD combines mathematical modelling, numerical methods, and experimental validation. I investigate which conclusions remain reliable when computational assumptions change, where parameters are poorly constrained, and how models can be reformulated to reduce computational cost.
+
+First-author preprint:
+[Ab initio-assisted analysis of NMR data of paramagnetic metal complexes in solution](https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001463/v1).
+
+## Engineering approach
+
+I care about software that other people can use and develop further: clear interfaces, explicit configuration, testable numerical code, CI, documentation, and reliable deployment.
+
+I am interested in roles where research and engineering meet, especially scientific software, developer tooling, and dependable backend systems.
 
 ## Tech
 
-`Python` `FastAPI` `PostgreSQL` `NumPy` `SciPy` `pytest` `scientific computing` `research software` `retrieval systems` `ranking` `observability` `TypeScript` `React`
+Python · TypeScript · SQL · FastAPI · React · PostgreSQL  
+NumPy · SciPy · pytest · GitHub Actions · Docker · Sphinx
 
 ## Links
 
-- GitHub: [Mephistos-ML](https://github.com/Mephistos-ML)
-- SciScope: [sciscope.uk](https://sciscope.uk/)
-- SimpNMR-X documentation: [simpnmr.org](https://simpnmr.org/)
-- SimpNMR-X package: [PyPI / simpnmr-x](https://pypi.org/project/simpnmr-x/)
+- [LinkedIn](https://www.linkedin.com/in/ernestborysenko)
+- [SciScope — live service](https://sciscope.uk/)
+- [SimpNMR — documentation](https://simpnmr.org/)
+- [SimpNMR-X — PyPI package](https://pypi.org/project/simpnmr-x/)
