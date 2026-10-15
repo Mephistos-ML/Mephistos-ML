@@ -27,22 +27,22 @@ A deployed service for discovering and monitoring scientific software across pub
 
 Try it at [sciscope.uk](https://sciscope.uk/).
 
-### [SimpNMR](https://github.com/Mephistos-ML/simpnmr-x)
+### [ParaNMR](https://github.com/Mephistos-ML/ParaNMR)
 
-Open-source scientific Python software connecting computational models with experimental NMR data. My current research and engineering development takes place on the `simpnmr-x` working branch.
+Open-source scientific Python software connecting computational models with experimental NMR data. My current research and engineering development takes place on the `ParaNMR` working branch.
 
-- Moment-based inference for parameter estimation without explicit signal assignment
-- Analytical Jacobians, constrained optimization, and uncertainty diagnostics
+- Moment-based inference for parameter estimation without explicit signal assignment (private)
+- Analytical Jacobians, constrained optimization, and uncertainty diagnostics (private)
 - Numerical kernels separated from CLI interfaces, configuration, and workflow orchestration
 - Scientific correctness tests, deterministic recovery cases, and reproducible benchmarks
 - Versioned releases, documentation, and Python-version compatibility checks in CI
 
-### [SimpNMR-X Synth](https://github.com/Mephistos-ML/simpnmr-x-synth)
+### [ParaNMR Synth](https://github.com/Mephistos-ML/ParaNMR-Synth)
 
-A companion generator for controlled SimpNMR validation and machine-learning experiments.
+A companion generator for controlled ParaNMR validation and machine-learning experiments.
 
 - Deterministic datasets with retained physical ground truth
-- Replayable parameter-recovery cases and paired moments-to-parameters datasets
+- Replayable parameter-recovery cases and paired moments-to-parameters datasets (private)
 - Provenance manifests and explicit generation settings
 
 ## Research
@@ -68,4 +68,4 @@ NumPy · SciPy · pytest · GitHub Actions · Docker · Sphinx
 - [LinkedIn](https://www.linkedin.com/in/ernestborysenko)
 - [SciScope — live service](https://sciscope.uk/)
 - [SimpNMR — documentation](https://simpnmr.org/)
-- [SimpNMR-X — PyPI package](https://pypi.org/project/simpnmr-x/)
+- [ParaNMR — PyPI package](https://pypi.org/project/ParaNMR/)
